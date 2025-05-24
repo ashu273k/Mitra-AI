@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaRobot, FaCode, FaPlay, FaChevronDown } from 'react-icons/fa';
+import { FaCode, FaPlay, FaChevronDown } from 'react-icons/fa';
 import { SiLeetcode, SiGithub, SiDiscord } from 'react-icons/si';
 
 export default function HeroSection() {
@@ -15,7 +15,7 @@ export default function HeroSection() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0d1117]/80 backdrop-blur-md border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <div className="flex items-center">
-            <FaRobot className="w-8 h-8 text-white" />
+            <img src="/mitra-logo.svg" alt="Mitra AI Logo" className="w-8 h-8" />
             <span className="ml-2 text-xl font-bold text-white">Mitra AI</span>
           </div>
           <div className="hidden md:flex items-center space-x-6">

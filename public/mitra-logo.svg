@@ -1,0 +1,14 @@
+<!-- Mitra AI Logo - Modern Robot Head SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#161b22" stroke="#2563ebcc" stroke-width="4"/>
+  <ellipse cx="32" cy="38" rx="18" ry="14" fill="#21262d" stroke="#60a5fa" stroke-width="2"/>
+  <rect x="22" y="18" width="20" height="18" rx="10" fill="#2563ebcc"/>
+  <ellipse cx="26" cy="32" rx="3" ry="4" fill="#fff"/>
+  <ellipse cx="38" cy="32" rx="3" ry="4" fill="#fff"/>
+  <ellipse cx="26" cy="32" rx="1.2" ry="1.6" fill="#60a5fa"/>
+  <ellipse cx="38" cy="32" rx="1.2" ry="1.6" fill="#60a5fa"/>
+  <rect x="28" y="38" width="8" height="2.5" rx="1.2" fill="#60a5fa"/>
+  <rect x="16" y="26" width="4" height="8" rx="2" fill="#2563ebcc"/>
+  <rect x="44" y="26" width="4" height="8" rx="2" fill="#2563ebcc"/>
+  <circle cx="32" cy="14" r="3" fill="#60a5fa" stroke="#fff" stroke-width="1.2"/>
+</svg>
