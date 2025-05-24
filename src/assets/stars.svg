@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 800 800">
+  <defs>
+    <path id="star" d="M8 0l2.5 5.3 5.5.8-4 3.9.9 5.4L8 13l-4.9 2.6.9-5.5-4-3.9 5.5-.8z"/>
+  </defs>
+  <g fill="#ffffff">
+    <use xlink:href="#star" x="40" y="30" transform="scale(0.5)"/>
+    <use xlink:href="#star" x="450" y="80" transform="scale(0.3)"/>
+    <use xlink:href="#star" x="750" y="120" transform="scale(0.4)"/>
+    <use xlink:href="#star" x="150" y="150" transform="scale(0.3)"/>
+    <use xlink:href="#star" x="300" y="250" transform="scale(0.4)"/>
+    <use xlink:href="#star" x="620" y="320" transform="scale(0.3)"/>
+    <use xlink:href="#star" x="280" y="400" transform="scale(0.5)"/>
+    <use xlink:href="#star" x="500" y="450" transform="scale(0.3)"/>
+    <use xlink:href="#star" x="80" y="480" transform="scale(0.4)"/>
+    <use xlink:href="#star" x="720" y="560" transform="scale(0.3)"/>
+    <use xlink:href="#star" x="380" y="600" transform="scale(0.4)"/>
+    <use xlink:href="#star" x="230" y="690" transform="scale(0.3)"/>
+    <use xlink:href="#star" x="620" y="730" transform="scale(0.5)"/>
+  </g>
+</svg>

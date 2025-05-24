@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* GitHub Light Theme Colors - not used but kept for reference */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* GitHub Dark Theme Colors */
+    --background: 215 19% 7%;        /* GitHub dark bg: #0d1117 */
+    --foreground: 0 0% 100%;         /* White text */
+    --card: 215 19% 7%;              /* Same as background */
+    --card-foreground: 0 0% 100%;    /* White text */
+    --popover: 215 19% 7%;           /* Same as background */
+    --popover-foreground: 0 0% 100%; /* White text */
+    --primary: 0 0% 100%;            /* White text */
+    --primary-foreground: 215 19% 7%; /* GitHub dark bg */
+    --secondary: 215 15% 12%;        /* GitHub darker: #161b22 */
+    --secondary-foreground: 0 0% 100%; /* White text */
+    --muted: 215 15% 12%;            /* GitHub darker */
+    --muted-foreground: 210 10% 60%; /* GitHub muted text */
+    --accent: 215 15% 12%;           /* GitHub darker */
+    --accent-foreground: 0 0% 100%;  /* White text */
+    --destructive: 0 70% 30%;        /* Dark red */
+    --destructive-foreground: 0 0% 100%; /* White text */
+    --border: 215 15% 15%;           /* GitHub border: #21262d */
+    --input: 215 15% 15%;            /* GitHub input bg */
+    --ring: 212 72% 45%;             /* GitHub blue: #1f6feb */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+}
+
+/* GitHub-specific styles */
+.github-glow {
+  box-shadow: 0 0 15px 5px rgba(56, 139, 253, 0.15);
+}
+
+.github-btn {
+  @apply bg-[#2563ebcc] text-white hover:bg-[#60a5fa99] transition-colors px-4 py-2 rounded-md font-medium;
+}
+
+.github-btn-outline {
+  @apply border border-gray-700 text-white hover:border-gray-600 hover:bg-[#30363d] transition-colors px-4 py-2 rounded-md font-medium;
+}
+
+.animate-gradient {
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  @apply bg-[#0d1117];
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-[#21262d] rounded-full;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#30363d];
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-[#388bfd40] text-white;
+}
+
+.dark ::selection {
+  @apply bg-[#388bfd40] text-white;
+}

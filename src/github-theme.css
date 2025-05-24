@@ -1,0 +1,95 @@
+/* GitHub theme styles */
+
+/* Custom scrollbar for GitHub dark theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #484f58;
+}
+
+/* GitHub font styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* GitHub-like focus styles */
+:focus-visible {
+  outline: 2px solid #58a6ff;
+  outline-offset: 2px;
+}
+
+/* GitHub button styles */
+button:focus-visible, a:focus-visible {
+  outline: 2px solid #58a6ff;
+  outline-offset: 2px;
+}
+
+/* GitHub-like animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* GitHub gradient styles */
+.github-gradient-blue {
+  background: linear-gradient(180deg, #58a6ff 0%, #0d419d 100%);
+}
+
+.github-gradient-green {
+  background: linear-gradient(180deg, #60a5fa 0%, #2563ebcc 100%);
+}
+
+.github-gradient-purple {
+  background: linear-gradient(180deg, #cc8bff 0%, #5a32a3 100%);
+}
+
+/* GitHub-like code snippet styling */
+.github-code {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  background-color: #161b22;
+  border-radius: 6px;
+  padding: 16px;
+  border: 1px solid #30363d;
+}
+
+/* GitHub-like hover effects */
+.github-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.github-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* GitHub-like card styles */
+.github-card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+}
+
+.github-card:hover {
+  border-color: #8b949e;
+}
