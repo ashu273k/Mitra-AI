@@ -33,7 +33,7 @@ export default function LandingPage() {
       </div>
       
       <TestimonialsSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <FAQsSection />
       
       {/* Final CTA Section - GitHub style */}

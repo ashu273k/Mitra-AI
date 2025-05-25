@@ -58,10 +58,10 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
           <a
-            href="/signup"
+            href="https://ai-interviewer.mitra-ai.com" // <-- Update this to your deployed AI interviewer link
             className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-[#2563ebcc] rounded-md hover:bg-[#60a5fa99] transition-colors shadow-lg focus:outline-none focus:ring-2 focus:ring-[#2563ebcc] focus:ring-offset-2 focus:ring-offset-[#0d1117]"
           >
-            Sign up for free
+            AI Interviewer
           </a>
           <a
             href="/playground"
@@ -73,25 +73,25 @@ export default function HeroSection() {
         </motion.div>
 
         {/* Stats counters - GitHub style */}
-        <motion.div 
+        {/* <motion.div 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
           className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 max-w-3xl mx-auto mb-16 text-center"
         >
           <div className="p-4 rounded-md bg-[#161b22] border border-gray-800">
-            <div className="text-3xl md:text-4xl font-bold text-white">300+</div>
+            <div className="text-3xl md:text-4xl font-bold text-white">5+</div>
             <div className="text-gray-400">Interview Questions</div>
           </div>
           <div className="p-4 rounded-md bg-[#161b22] border border-gray-800">
-            <div className="text-3xl md:text-4xl font-bold text-white">10k+</div>
+            <div className="text-3xl md:text-4xl font-bold text-white">0</div>
             <div className="text-gray-400">Active Users</div>
           </div>
           <div className="p-4 rounded-md bg-[#161b22] border border-gray-800">
             <div className="text-3xl md:text-4xl font-bold text-white">97%</div>
             <div className="text-gray-400">Success Rate</div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Integration Logos */}
         <motion.div

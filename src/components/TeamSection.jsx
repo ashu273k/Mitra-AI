@@ -1,5 +1,4 @@
 import React from 'react';
-import Ashu from "../assets/Ashu1.jpg"
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
@@ -19,15 +18,6 @@ export default function TeamSection() {
       role: "AI/ML Engineer",
       image: "https://randomuser.me/api/portraits/men/45.jpg",
       description: "Expert in machine learning and natural language processing, focused on creating intelligent interview systems.",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      twitter: "https://twitter.com"
-    },
-    {
-      name: "Aashu Kumar",
-      role: "UI/UX Designer",
-      image: Ashu,
-      description: "Dedicated to crafting beautiful and intuitive interfaces that enhance user interaction.",
       github: "https://github.com",
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com"
