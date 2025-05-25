@@ -58,7 +58,7 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
           <a
-            href="https://ai-interviewer.mitra-ai.com" // <-- Update this to your deployed AI interviewer link
+            href="https://mitra-interviewer.vercel.app/" // <-- Update this to your deployed AI interviewer link
             className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-[#2563ebcc] rounded-md hover:bg-[#60a5fa99] transition-colors shadow-lg focus:outline-none focus:ring-2 focus:ring-[#2563ebcc] focus:ring-offset-2 focus:ring-offset-[#0d1117]"
           >
             AI Interviewer
